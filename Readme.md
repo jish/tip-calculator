@@ -14,7 +14,7 @@ About four hours.
 
 #### GIF walkthrough
 
-TODO
+![GIF Walkthrough of tip calculator](tip-calculator.gif)
 
 #### Open source software used:
 
