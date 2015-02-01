@@ -22,6 +22,7 @@ About four hours.
 
 #### License
 
-MIT
+[MIT][2]
 
 [1]: http://www.cockos.com/licecap/
+[2]: License
