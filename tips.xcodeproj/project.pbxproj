@@ -13,6 +13,7 @@
 		0343EDEA1A7B59CC00D9DDB0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0343EDE91A7B59CC00D9DDB0 /* Images.xcassets */; };
 		0343EDED1A7B59CC00D9DDB0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0343EDEB1A7B59CC00D9DDB0 /* LaunchScreen.xib */; };
 		0343EDF91A7B59CC00D9DDB0 /* tipsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0343EDF81A7B59CC00D9DDB0 /* tipsTests.swift */; };
+		0379D1771A7DC1400074C336 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0379D1761A7DC1400074C336 /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		0343EDF21A7B59CC00D9DDB0 /* tipsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tipsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0343EDF71A7B59CC00D9DDB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0343EDF81A7B59CC00D9DDB0 /* tipsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tipsTests.swift; sourceTree = "<group>"; };
+		0379D1761A7DC1400074C336 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,8 +79,8 @@
 		0343EDDF1A7B59CC00D9DDB0 /* tips */ = {
 			isa = PBXGroup;
 			children = (
+				0379D1781A7DC14C0074C336 /* controllers */,
 				0343EDE21A7B59CC00D9DDB0 /* AppDelegate.swift */,
-				0343EDE41A7B59CC00D9DDB0 /* ViewController.swift */,
 				0343EDE61A7B59CC00D9DDB0 /* Main.storyboard */,
 				0343EDE91A7B59CC00D9DDB0 /* Images.xcassets */,
 				0343EDEB1A7B59CC00D9DDB0 /* LaunchScreen.xib */,
@@ -110,6 +112,15 @@
 				0343EDF71A7B59CC00D9DDB0 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0379D1781A7DC14C0074C336 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0343EDE41A7B59CC00D9DDB0 /* ViewController.swift */,
+				0379D1761A7DC1400074C336 /* SettingsViewController.swift */,
+			);
+			name = controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -214,6 +225,7 @@
 			files = (
 				0343EDE51A7B59CC00D9DDB0 /* ViewController.swift in Sources */,
 				0343EDE31A7B59CC00D9DDB0 /* AppDelegate.swift in Sources */,
+				0379D1771A7DC1400074C336 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,6 +417,7 @@
 				0343EDFE1A7B59CC00D9DDB0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0343EDFF1A7B59CC00D9DDB0 /* Build configuration list for PBXNativeTarget "tipsTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +426,7 @@
 				0343EE011A7B59CC00D9DDB0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
